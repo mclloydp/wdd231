@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta description="McLloyd Pise's WDD 231 Portfolio">
+  <meta author="McLloyd Pise">
+  <title>McLloyd Pise - WDD 231</title>
+  <link rel="stylesheet" href="/styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="profile">
+      <img src="/images/img-mclloyd-pise.webp" alt="McLloyd Pise">
+    <h1>McLloyd Pise</h1>
+    </div>
+    <span class="menu-toggle">☰</span>
+    <nav>
+      <ul>
+        <li><a href="#"class="active">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="#">GitHub Profile</a></li>
+        <li><a href="https://www.linkedin.com/in/mclloyd-pise/">LinkedIn</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content">
+      <div class="coursework">
+        <h2>Course Work</h2>
+        <ul>
+          <li>Project 1: Responsive Design</li>
+          <li>Project 2: JavaScript Interactivity</li>
+          <li>Project 3: Advanced CSS Techniques</li>
+        </ul>
+      </div>
+      <div class="location">
+        <h2>Northpine, Cape Town</h2>
+        <img src="/images/norfolk-island-pine.webp" alt="norfolk-island-pine">
+        <p>Norfolk Island Pine</p>
+      </div>
+    </section>
+
+    <section class="certificate">
+      <h2>Web and Computer Programming Certificate</h2>
+      <div class="filters">
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="CSE">CSE</button>
+        <button class="filter-btn" data-filter="WDD">WDD</button>
+      </div>
+      <div class="courses">
+        <div class="course CSE">CSE 110</div>
+        <div class="course WDD">WDD 130</div>
+        <div class="course CSE">CSE 111</div>
+        <div class="course CSE">CSE 210</div>
+        <div class="course WDD">WDD 131</div>
+        <div class="course WDD">WDD 231</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="currentYear"></span> McLloyd Pise.Cape Town.</p>
+      <p id="lastModified"></p>
+  </footer>
+  <script src="/scripts/script.js"></script>
+  <script src="scripts/getDates.js"></script>
+</body>
+</html>

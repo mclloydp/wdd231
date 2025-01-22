@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Big Company 1",
+        "address": "10 Northpine Street",
+        "city": "Cape Town",
+        "country": "South Africa",
+        "email": "test@bigcompany.co.za",
+        "registard": true
+    },
+    {
+        "id": 2,
+        "name": "Big Company 2",
+        "address": "20 Northpine Street",
+        "city": "Johannesburg",
+        "country": "South Africa",
+        "email": "test@bigcompany2.co.za",
+        "registard": false
+    },
+    {
+        "id": 3,
+        "name": "Big Company 3",
+        "address": "30 Northpine Street",
+        "city": "Durban",
+        "country": "South Africa",
+        "email": "test@bigcompany3.co.za",
+        "registard": true
+    }
+]

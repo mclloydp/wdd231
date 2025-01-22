@@ -1,0 +1,32 @@
+[
+    {
+       "family_name": "Doe",
+       "date_moved_in": "2020-01-01",
+       "number_in_family": 4,
+       "visited_by_bishop": true,
+       "family_members": [
+           {
+               "name": "John",
+               "date_of_birth": "1980-01-01",
+               "gender": "male"
+
+            },
+            {
+                "name": "Jane",
+                "date_of_birth": "1980-01-01",
+                "gender": "female"
+            },
+            {
+                "name": "Jimmy",
+                "date_of_birth": "2000-01-01",
+                "gender":"male"
+            },
+            {
+                "name": "Jenny",
+                "date_of_birth": "2000-01-01",
+                "gender":"female"
+            }  
+        ]
+    }
+]
+        
